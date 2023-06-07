@@ -11,10 +11,10 @@ screen.tracer(0)
 player = Player()
 scoreboard = Scoreboard()
 car_manager = CarManager()
-
+# Listening to Up arrow key strokes
 screen.listen()
 screen.onkey(player.up, "Up")
-
+# main loop of game
 game_is_on = True
 while game_is_on:
     time.sleep(0.1)
