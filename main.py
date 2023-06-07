@@ -3,7 +3,7 @@ from turtle import Screen
 from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
-
+# Initializing the player and environment
 loop_time = 0
 screen = Screen()
 screen.setup(width=600, height=600)
